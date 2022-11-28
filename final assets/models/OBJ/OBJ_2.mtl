@@ -1,0 +1,12 @@
+# Blender MTL File: 'Blender.blend'
+# Material Count: 1
+
+newmtl macarons
+Ns 21.790678
+Ka 1.000000 1.000000 1.000000
+Kd 0.864903 0.620538 0.063714
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
