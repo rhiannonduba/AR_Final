@@ -14,11 +14,11 @@ public class TestMarkerTracking : MonoBehaviour
     private ARTrackedImageManager myManager;
 
 
-    
+
     void OnEnable()
     {
-     myManager = GetComponent<ARTrackedImageManager>();
-     myManager.trackedImagesChanged += changeDetected;
+        myManager = GetComponent<ARTrackedImageManager>();
+        myManager.trackedImagesChanged += changeDetected;
 
     }
 
@@ -27,44 +27,48 @@ public class TestMarkerTracking : MonoBehaviour
         myManager.trackedImagesChanged -= changeDetected;
     }
 
-    privte void changeDetected(ARTrackedImagesChangedEventArgs eventArguments)
+    private void changeDetected(ARTrackedImagesChangedEventArgs eventArguments)
     {
         //i detected the marker
         foreach (var detectedImage in eventArguments.added)
-             
+        {
+
             string imageName = detectedImage.name;
 
             foreach (var scenePrefab in AR_Prefabs)
             {
                 string prefabName = scenePrefab.name;
 
-                if(string.Compare(imageName, prefabName, System.StringComparison.Ordinal) == 0 
-                    && !instanciatedPrefabs.ContainsKey(imageName))
-                    {
-                        var createdPref = Instantiate(scenePrefab, detectedImage.transform);
+                if (string.Compare(imageName, prefabName, System.StringComparison.Ordinal) == 0
+                    && !instantiatedPrefabs.ContainsKey(imageName))
+                {
+                    var createdPref = Instantiate(scenePrefab, detectedImage.transform);
 
-                        instanciatedPrefabs[prefabName] = createdPref;
-                    }
+                    instantiatedPrefabs[prefabName] = createdPref;
+                }
             }
-        //the marker changed
+        }
+            //the marker changed
         foreach (var detectedImage in eventArguments.updated)
         {
-            instanciatedPrefabs[detectedImage.referenceImage.name].SetActive(detectedImage.trackingState == trackingState.Tracking);
+            instantiatedPrefabs[detectedImage.referenceImage.name].SetActive(detectedImage.trackingState == TrackingState.Tracking);
         }
 
-        //the marker is gone
+            //the marker is gone
         foreach (var detectedImage in eventArguments.removed)
         {
             Destroy(instantiatedPrefabs[detectedImage.referenceImage.name]);
 
-            instanciatedPrefabs.Remove(detectedImage.referenceImage.name);
+            instantiatedPrefabs.Remove(detectedImage.referenceImage.name);
         }
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
+
