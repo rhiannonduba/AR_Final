@@ -31,7 +31,7 @@ public class LogicCode : MonoBehaviour
 
       //Simulates scanned ingredients getting added (only for debug)
         ingredients.Add("tomatoes");
-        ingredients.Add("potatoes");
+        ingredients.Add("eggs");
 
         // }
 
@@ -66,14 +66,39 @@ public class LogicCode : MonoBehaviour
 
         }
 
-        foreach( int i in Counters)
+        int temp;
+        string ingtemp;
+        for (int j = 0; j <= Counters.Count - 2; j++)
         {
-            if (Counters[i] > )
+            for (int i = 0; i <= Counters.Count - 2; i++)
             {
-
+                if (Counters[i] < Counters[i + 1])   //default is >
+                {
+                    temp = Counters[i + 1];
+                    ingtemp = FoundRecipies[i + 1];
+                    Counters[i + 1] = Counters[i];
+                    FoundRecipies[i + 1] = FoundRecipies[i];
+                    Counters[i] = temp;
+                    FoundRecipies[i] = ingtemp;
+                }
             }
-
         }
+
+        /*for (var i = 0; i < Counters.Count; i++)
+        {
+            if (i == Counters.Count)
+            {
+                break;
+            }
+            else 
+            {
+                if (Counters[i] < Counters[i + 1])
+                {
+
+                }
+            }
+        }
+        */
 
         Debug.Log("Display recipies list(fixed):");
         foreach (string item in FoundRecipies) 
