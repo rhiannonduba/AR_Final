@@ -11,9 +11,10 @@ public class TestMarkerTracking : MonoBehaviour
 
     private readonly Dictionary<string, GameObject> instantiatedPrefabs = new Dictionary<string, GameObject>();
 
-    private ARTrackedImageManager myManager;
+    public static ARTrackedImageManager myManager;
 
-
+    public static string imageName;
+    
 
     void OnEnable()
     {
@@ -27,13 +28,13 @@ public class TestMarkerTracking : MonoBehaviour
         myManager.trackedImagesChanged -= changeDetected;
     }
 
-    private void changeDetected(ARTrackedImagesChangedEventArgs eventArguments)
+    public void changeDetected(ARTrackedImagesChangedEventArgs eventArguments)
     {
         //i detected the marker
         foreach (var detectedImage in eventArguments.added)
         {
 
-            string imageName = detectedImage.name;
+            imageName = detectedImage.name;
 
             foreach (var scenePrefab in AR_Prefabs)
             {
