@@ -4,7 +4,43 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 536c16fc264327f4397ae0da052bf264
+  - enabled: 1
+    path: Assets/Scenes/ScanScreen.unity
+    guid: 6db150e11c21f4b4dbb427f96a75fc24
+  - enabled: 1
+    path: Assets/Scenes/ScanOFFScreen.unity
+    guid: 7940b061a69c4b849b8cb199702695b1
+  - enabled: 1
+    path: Assets/Scenes/MyRecipesScreen.unity
+    guid: 35702fcd6939c9c4d8b2366eb39f536c
+  - enabled: 1
+    path: Assets/Scenes/GrilledCheese.unity
+    guid: ad6c2c8fd8d50804a8020e10f3995a40
+  - enabled: 1
+    path: Assets/Scenes/ScallopedPotatoes.unity
+    guid: 3f1895edb870cd74bb79f15d6aa5886b
+  - enabled: 1
+    path: Assets/Scenes/CapreseSalad.unity
+    guid: 3fe146097f9af944e9131e4c67162b2a
+  - enabled: 1
+    path: Assets/Scenes/Omelette.unity
+    guid: 8c8147ef0962f4145955faad03fbdbe0
+  - enabled: 1
+    path: Assets/Scenes/PapasConJuevos.unity
+    guid: 0f08081b36e015642b6aeeb4dc5f0ab9
+  - enabled: 1
+    path: Assets/Scenes/Shakshuka.unity
+    guid: 195673b244188704fb9df37c6285d121
+  - enabled: 1
+    path: Assets/Scenes/ChickenParm.unity
+    guid: 5c948228ec808f04dbf84def098388d9
+  - enabled: 1
+    path: Assets/Scenes/Chkn&Potatoe.unity
+    guid: 27bc67fe6b3a2dd448a833439aca0834
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
