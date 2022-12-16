@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Grilled Cheese
+  - Scalloped Potatoes
+  - Caprese Salad
+  - Omelette
+  - Papas Con Juevos
+  - Shakshuka
+  - Chicken Parmsean
+  - Roasted Chicken with Potatoes
+  - RecipieList
   layers:
   - Default
   - TransparentFX

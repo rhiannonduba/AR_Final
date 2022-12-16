@@ -7,16 +7,23 @@ using UnityEngine.UI;
 public class LogicCode : MonoBehaviour
 {
     public TestMarkerTracking TestMarkerTracking;
-    
 
+    
     List<string> ingredients = new List<string>(); //list of ingredients where items that are detected are brought in
+
+    public static List<string> FoundRecipies = new List<string> { }; //if even one ingredient is found in a given, the recipie it's added to the list
+    List<int> Counters = new List<int> { };
 
     Dictionary<string, string> recipies = new Dictionary<string, string>
     {  //list of recipies that are entered in (key is the name, value is the ingredients needed to make the recipie)
-            { "Pasta salad","tomatoes,pasta" },
-            { "Potato Salad","potatoes,tomatoes" },
-            { "French Toast", "eggs,bread"},
-            { "Shakshouka" , "tomatoes,eggs"}
+            { "Grilled Cheese","bread,cheese"},
+            { "Scalloped Potatoes","potatoes,cheese"},
+            { "Caprese Salad", "cheese,tomatoes"},
+            { "Omelette", "cheese,eggs,tomatoes"},
+            { "Papas Con Juevos", "eggs,potatoes"},
+            { "Chicken Parmsean", "cheese,chicken,tomatoes,bread"},
+            { "Shakshuka" , "tomatoes,eggs,cheese"},
+            { "Roasted Chicken with Potatoes" , "chicken,potatoes"}
     };
 
     bool ingredientfound = false;
@@ -35,10 +42,6 @@ public class LogicCode : MonoBehaviour
 
         // }
 
-        
-
-        List<string> FoundRecipies = new List<string> { }; //if even one ingredient is found in a given, the recipie it's added to the list
-        List<int> Counters = new List<int> { };
 
         foreach (KeyValuePair<string, string> recipie in recipies)
         {
