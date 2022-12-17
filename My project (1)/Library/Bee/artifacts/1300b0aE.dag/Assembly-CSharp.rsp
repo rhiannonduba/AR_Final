@@ -396,6 +396,7 @@
 "Assets/Scripts/ButtonSpawn.cs"
 "Assets/Scripts/LogicCode.cs"
 "Assets/Scripts/OrderChangeScript.cs"
+"Assets/Scripts/ScanningScript.cs"
 "Assets/Scripts/TestMarkerTracking.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

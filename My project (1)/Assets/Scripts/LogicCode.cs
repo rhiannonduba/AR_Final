@@ -8,8 +8,9 @@ public class LogicCode : MonoBehaviour
 {
     public TestMarkerTracking TestMarkerTracking;
 
-    
-    List<string> ingredients = new List<string>(); //list of ingredients where items that are detected are brought in
+    public ScanningScript ScanningScript;
+
+    List<string> ingredients = ScanningScript.ingredients; //list of ingredients where items that are detected are brought in
 
     public static List<string> FoundRecipies = new List<string> { }; //if even one ingredient is found in a given, the recipie it's added to the list
     List<int> Counters = new List<int> { };
@@ -29,7 +30,7 @@ public class LogicCode : MonoBehaviour
     bool ingredientfound = false;
 
     // Start is called before the first frame update
-    void Start()
+    void Update()
     {
       //Loop here until the user hits the "finish scanning" button {
         //string newDetected = TestMarkerTracking.imageName;
@@ -37,8 +38,8 @@ public class LogicCode : MonoBehaviour
         
 
       //Simulates scanned ingredients getting added (only for debug)
-        ingredients.Add("tomatoes");
-        ingredients.Add("eggs");
+        //ingredients.Add("tomatoes");
+        //ingredients.Add("eggs");
 
         // }
 
