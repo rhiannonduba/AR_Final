@@ -21,69 +21,69 @@ MonoBehaviour:
       m_GuidLow: 4843712894770786234
       m_GuidHigh: 17873307814147967672
     m_SerializedTextureGuid:
-      m_GuidLow: 9751604550730504989
-      m_GuidHigh: 1595738134893024088
+      m_GuidLow: 2325105619779596534
+      m_GuidHigh: 15212315736617633195
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Bread
-    m_Texture: {fileID: 2800000, guid: 345fdb1da8ac875458d3d70c61332516, type: 3}
+    m_Texture: {fileID: 2800000, guid: 043a30f66f3e2044abc52d6c90001dd3, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5659283093337038016
       m_GuidHigh: 11221053454155456957
     m_SerializedTextureGuid:
-      m_GuidLow: 14196482661527897582
-      m_GuidHigh: 8191819961787515642
+      m_GuidLow: 6085755936666285988
+      m_GuidHigh: 416062084947430011
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Cheese
-    m_Texture: {fileID: 2800000, guid: b45cc5ee09c3c504fa824c66da30af71, type: 3}
+    m_Texture: {fileID: 2800000, guid: dab7f7a4f2c754747bcacc094326c605, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4644232404347994297
       m_GuidHigh: 5241450156132475310
     m_SerializedTextureGuid:
-      m_GuidLow: 6576593976520298151
-      m_GuidHigh: 15319253335248506810
+      m_GuidLow: 11354900578202219519
+      m_GuidHigh: 9714939892676293049
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Chicken
-    m_Texture: {fileID: 2800000, guid: 9a774ea7c1605b44ba8fb457beeb98d4, type: 3}
+    m_Texture: {fileID: 2800000, guid: 3f9ef3ffb5ea9d94b9f13d455c66d286, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4849789304314946780
       m_GuidHigh: 15197962018376566702
     m_SerializedTextureGuid:
-      m_GuidLow: 14989313744222704734
-      m_GuidHigh: 9076699905131660473
+      m_GuidLow: 5148758077060507265
+      m_GuidHigh: 17813896464256388616
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Pasta
-    m_Texture: {fileID: 2800000, guid: ff46545ebd6ed004b9c4312a79eaf67d, type: 3}
+    m_Texture: {fileID: 2800000, guid: 199d66811031477408ce96c173ac37f7, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5473505559077621182
       m_GuidHigh: 9155016778628299410
     m_SerializedTextureGuid:
-      m_GuidLow: 18011208261273885835
-      m_GuidHigh: 1394225763581110794
+      m_GuidLow: 13345538063913979349
+      m_GuidHigh: 1648589935902615163
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Eggs
-    m_Texture: {fileID: 2800000, guid: 74cf9c8baa7cf9f40a2af3eef1485913, type: 3}
+    m_Texture: {fileID: 2800000, guid: 540c0dd5e029b9347b66c2e5cff7e016, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4961353060812489646
       m_GuidHigh: 12224336790961706125
     m_SerializedTextureGuid:
-      m_GuidLow: 17020406519305298073
-      m_GuidHigh: 3677414833559760090
+      m_GuidLow: 15245881117130098283
+      m_GuidHigh: 10365996677752163577
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Tomatoes
-    m_Texture: {fileID: 2800000, guid: 23ef6099a18dec34daec14ae4ecd0833, type: 3}
+    m_Texture: {fileID: 2800000, guid: 9260066b4019d394f90c4c980e6bdb8f, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4839905013823717258
       m_GuidHigh: 3081393269925940875
     m_SerializedTextureGuid:
-      m_GuidLow: 2379044520051888390
-      m_GuidHigh: 12235792413318715338
+      m_GuidLow: 12066543611264254181
+      m_GuidHigh: 17710309128774441784
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Potatoes
-    m_Texture: {fileID: 2800000, guid: e288510610622104ca1748355f44cea9, type: 3}
+    m_Texture: {fileID: 2800000, guid: b02a40e5f97ba774385bf5c251a8c7f5, type: 3}
