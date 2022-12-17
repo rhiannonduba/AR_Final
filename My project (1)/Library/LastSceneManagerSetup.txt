@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ScanOFFScreen.unity
+- path: Assets/Scenes/ScanScreen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

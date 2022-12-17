@@ -392,6 +392,7 @@
 "Assets/Scripts/AnchorCreator.cs"
 "Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
 "Assets/Scripts/ButtonSpawn.cs"
+"Assets/Scripts/ImageRecog.cs"
 "Assets/Scripts/LogicCode.cs"
 "Assets/Scripts/OrderChangeScript.cs"
 "Assets/Scripts/ScanningScript.cs"
